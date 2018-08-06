@@ -6,6 +6,8 @@
 
 #logo {
   height: 100px;
+  position: absolute;
+ 
 }
 
 #buttons {
