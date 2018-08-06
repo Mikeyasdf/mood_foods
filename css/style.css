@@ -5,6 +5,22 @@
 
 
 #logo {
-  height: 100px
+  height: 100px;
 }
 
+#buttons {
+    height: 85;
+    width: 80px;
+}
+
+#login_button{
+    height: 90px;
+}
+
+.btn {
+    display: grid;
+    height: 90px;
+    width: 140px;
+    grid-gap: 40px;
+    
+}
