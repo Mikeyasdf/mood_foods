@@ -1,23 +1,13 @@
 .container{
     background-color: #8BC34A;
     padding: 0 60px;
-    background-color: #90e231;
-    background-color: #179e1b;
-
 }
 
 
 #logo {
   height: 100px;
   position: absolute;
-<<<<<<< HEAD
-  right: 640px ;
-  background-color: #90e231;
-  background-color: #179e1b;
-=======
   right: 605px ;
- 
->>>>>>> 820e002c8ce585c731a20c0d58ef0d869fc23d3a
 }
 
 #buttons {
@@ -30,25 +20,14 @@
 }
 
 .btn {
+    font-size: medium;
     display: grid;
-<<<<<<< HEAD
-    height: 50px;
-=======
     height: 100px;
->>>>>>> 820e002c8ce585c731a20c0d58ef0d869fc23d3a
     width: 100px;
-    grid-gap: 40px; 
+    grid-gap: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
-<<<<<<< HEAD
-    height: 90px;
-    width: 140px;
-    grid-gap: 40px;
-    height: 100px
-    
-=======
->>>>>>> 820e002c8ce585c731a20c0d58ef0d869fc23d3a
 }
 
 .main {
@@ -56,3 +35,4 @@
     right: 480px;
     top: 290px;
 }
+
