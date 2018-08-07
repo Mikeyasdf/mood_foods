@@ -21,7 +21,7 @@ class AboutPage(webapp2.RequestHandler):
         about_template = the_jinja_env.get_template('templates/about.html')
         self.response.write(about_template.render())
 
-#add <form action="/page_2" method="post"> to make buttons do stuff
+#add <form action="/page_2" method="post"> in the about.html to make buttons do stuff
 
 
 class Page_2(webapp2.RequestHandler):
