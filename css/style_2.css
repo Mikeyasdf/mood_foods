@@ -1,0 +1,27 @@
+.container{
+    background-color: #8BC34A;
+    padding: 0 60px;
+}
+
+#buttons {
+    height: 85;
+    width: 80px;
+}
+
+#login_button{
+    height: 90px;
+}
+
+.btn {
+    font-size: medium;
+    display: grid;
+    height: 100px;
+    width: 100px;
+    grid-gap: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
