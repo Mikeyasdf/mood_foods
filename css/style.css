@@ -1,5 +1,5 @@
 .container{
-    background-color: #fff;
+    background-color: #8BC34A;
     padding: 0 60px;
 }
 
@@ -7,7 +7,7 @@
 #logo {
   height: 100px;
   position: absolute;
-  right: 640px ;
+  right: 605px ;
  
 }
 
@@ -22,32 +22,16 @@
 
 .btn {
     display: grid;
-<<<<<<< HEAD
-    height: 50px;
+    height: 100px;
     width: 100px;
     grid-gap: 40px; 
     display: flex;
     align-items: center;
     justify-content: center;
-=======
-    height: 90px;
-    width: 140px;
-    grid-gap: 40px;
-<<<<<<< HEAD
-    height: 100px
-}
-=======
-
->>>>>>> bf205147a4176e83fd29bf2cad43feea58ba104a
 }
 
 .main {
     position: absolute;
-    right: 200px;
-    top: 120px;
+    right: 480px;
+    top: 290px;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> bd9cf65769eb41c0281437ef4cdb647a374087f7
->>>>>>> bf205147a4176e83fd29bf2cad43feea58ba104a
