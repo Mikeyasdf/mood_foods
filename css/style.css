@@ -4,7 +4,6 @@
 }
 
 #logo {
-<<<<<<< HEAD
   height: 100px;
   position: absolute;
  
@@ -24,8 +23,5 @@
     height: 90px;
     width: 140px;
     grid-gap: 40px;
-    
-=======
-  height: 100px
->>>>>>> d35d84c8f366ea761e028b2a4441a19011387b46
+    height: 100px
 }
