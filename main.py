@@ -29,21 +29,19 @@ class Page_2(webapp2.RequestHandler):
         if(isError):
             self.redirect("/page_2")
         else:
-
             self.redirect("/") 
-'''
+
 class Page_2(webapp2.RequestHandler):
     def get(self):
         about_template = the_jinja_env.get_template('templates/index.html')
         self.response.write(about_template.render())
-
         self.redirect("/page_2")
     def post(self):
         if True:
             self.response.write("Error dummy!")
         else:
             self.redirect("/")
-'''
+
 app = webapp2.WSGIApplication([
     ('/', AboutPage),
     ('/page_2', Page_2),
