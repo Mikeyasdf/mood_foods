@@ -24,13 +24,8 @@
     height: 100px;
     width: 100px;
     grid-gap: 40px;
-    display: flex;
     align-items: center;
     justify-content: center;
-<<<<<<< HEAD
-=======
-
->>>>>>> 7b408682fab4dad8e5c735abd23fcb31993379ee
 }
 
 .main {

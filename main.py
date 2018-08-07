@@ -31,10 +31,6 @@ class Page_2(webapp2.RequestHandler):
         else:
 
             self.redirect("/") 
-
-<<<<<<< HEAD
-
-=======
 '''
 class Page_2(webapp2.RequestHandler):
     def get(self):
@@ -48,7 +44,6 @@ class Page_2(webapp2.RequestHandler):
         else:
             self.redirect("/")
 '''
->>>>>>> 7b408682fab4dad8e5c735abd23fcb31993379ee
 app = webapp2.WSGIApplication([
     ('/', AboutPage),
     ('/page_2', Page_2),
