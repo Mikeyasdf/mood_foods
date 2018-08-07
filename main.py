@@ -28,7 +28,7 @@ class Page_2(webapp2.RequestHandler):
 
     def post(self):
         about_template = the_jinja_env.get_template('templates/page_2.html')
-        isError = False
+        isError = True
         if(isError):
             self.redirect("/page_2")
         else:
