@@ -3,12 +3,6 @@
     padding: 0 60px;
 }
 
-#logo {
-  height: 100px;
-  position: absolute;
-  right: 605px ;
-}
-
 #buttons {
     height: 85;
     width: 80px;
@@ -30,14 +24,4 @@
 
 }
 
-.main {
-    position: absolute;
-    right: 480px;
-    top: 140px;
-}
-
-.sidebar {
-   height: 80px;
-   width: 100px;
-}
 
