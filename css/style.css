@@ -3,9 +3,12 @@
     padding: 0 60px;
 }
 
+
 #logo {
   height: 100px;
   position: absolute;
+  text-align: center;
+  right: 640px ;
  
 }
 
@@ -23,5 +26,16 @@
     height: 90px;
     width: 140px;
     grid-gap: 40px;
+<<<<<<< HEAD
     height: 100px
 }
+=======
+
+}
+
+.main {
+    position: absolute;
+    right: 500px;
+    top: 120px;
+}
+>>>>>>> bd9cf65769eb41c0281437ef4cdb647a374087f7
