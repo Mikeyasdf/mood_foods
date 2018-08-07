@@ -5,9 +5,6 @@ import os
 
 #libraries for APIs
 from google.appengine.api import urlfetch
-
-#libraries for APIs
-from google.appengine.api import urlfetch
 import json
 
 the_jinja_env = jinja2.Environment(
@@ -35,7 +32,23 @@ class Page_2(webapp2.RequestHandler):
 
             self.redirect("/") 
 
+<<<<<<< HEAD
 
+=======
+'''
+class Page_2(webapp2.RequestHandler):
+    def get(self):
+        about_template = the_jinja_env.get_template('templates/index.html')
+        self.response.write(about_template.render())
+
+        self.redirect("/page_2")
+    def post(self):
+        if True:
+            self.response.write("Error dummy!")
+        else:
+            self.redirect("/")
+'''
+>>>>>>> 7b408682fab4dad8e5c735abd23fcb31993379ee
 app = webapp2.WSGIApplication([
     ('/', AboutPage),
     ('/page_2', Page_2),
