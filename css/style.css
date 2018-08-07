@@ -1,18 +1,37 @@
 
 .container{
+<<<<<<< HEAD
     background-color: #fff;
     padding: 0 10px;
 }
 .class{
     height: 70px;
     width: 90px;
+=======
+    background-color: #8BC34A;
+    padding: 0 60px;
+    background-color: #90e231;
+    background-color: #179e1b;
+
+>>>>>>> ab25b8c042ff093e4286b480212386dae3aba288
 }
 
 #logo {
   height: 100px;
+<<<<<<< HEAD
   text-align: center;
   right: 64px ;
+=======
+  position: absolute;
+<<<<<<< HEAD
+  right: 640px ;
+  background-color: #90e231;
+  background-color: #179e1b;
+=======
+  right: 605px ;
+>>>>>>> ab25b8c042ff093e4286b480212386dae3aba288
  
+>>>>>>> 820e002c8ce585c731a20c0d58ef0d869fc23d3a
 }
 
 #buttons {
@@ -23,6 +42,7 @@
 #login_button{
     height: 90px;
 }
+<<<<<<< HEAD
 .btn{
     height: 90px;
     width: 150px;
@@ -50,9 +70,38 @@
 #pink{
   color:green; 
   background-color: red;
+=======
+
+.btn {
+    display: grid;
+<<<<<<< HEAD
+    height: 50px;
+=======
+    height: 100px;
+>>>>>>> 820e002c8ce585c731a20c0d58ef0d869fc23d3a
+    width: 100px;
+    grid-gap: 40px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+<<<<<<< HEAD
+    height: 90px;
+    width: 140px;
+    grid-gap: 40px;
+    height: 100px
+    
+=======
+>>>>>>> 820e002c8ce585c731a20c0d58ef0d869fc23d3a
+>>>>>>> ab25b8c042ff093e4286b480212386dae3aba288
 }
 .main {
+<<<<<<< HEAD
     position: fixed;
     right: 100px;
     top: 100px;
+=======
+    position: absolute;
+    right: 480px;
+    top: 290px;
+>>>>>>> ab25b8c042ff093e4286b480212386dae3aba288
 }
