@@ -7,7 +7,6 @@
 #logo {
   height: 100px;
   position: absolute;
-  text-align: center;
   right: 640px ;
  
 }
@@ -23,14 +22,38 @@
 
 .btn {
     display: grid;
+<<<<<<< HEAD
+    height: 50px;
+    width: 100px;
+    grid-gap: 40px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+=======
     height: 90px;
     width: 140px;
     grid-gap: 40px;
     height: 100px
 }
+<<<<<<< HEAD
+=======
+=======
+
+>>>>>>> bf205147a4176e83fd29bf2cad43feea58ba104a
+}
+>>>>>>> 38b8c28f28ae3114f8ddadb2ba26774f87a87880
 
 .main {
     position: absolute;
-    right: 500px;
+    right: 200px;
     top: 120px;
+<<<<<<< HEAD
 }
+=======
+}
+<<<<<<< HEAD
+
+=======
+>>>>>>> bd9cf65769eb41c0281437ef4cdb647a374087f7
+>>>>>>> bf205147a4176e83fd29bf2cad43feea58ba104a
+>>>>>>> 38b8c28f28ae3114f8ddadb2ba26774f87a87880
