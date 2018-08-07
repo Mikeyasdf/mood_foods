@@ -20,7 +20,7 @@ class AboutPage(webapp2.RequestHandler):
     def get(self):
         about_template = the_jinja_env.get_template('templates/about.html')
         self.response.write(about_template.render())
-   
+
 
 class ContactPage(webapp2.RequestHandler):
     def get(self):
@@ -28,8 +28,7 @@ class ContactPage(webapp2.RequestHandler):
         self.response.write(about_template.render())
         
     def post(self):
-        isError = False
-        if(isError):
+        if True:
             self.response.write("Error dummy!")
         else:
             self.redirect("/")
