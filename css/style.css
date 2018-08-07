@@ -1,77 +1,58 @@
+
 .container{
     background-color: #fff;
-    padding: 0 60px;
+    padding: 0 10px;
 }
-
+.class{
+    height: 70px;
+    width: 90px;
+}
 
 #logo {
   height: 100px;
-  position: absolute;
   text-align: center;
-  right: 640px ;
+  right: 64px ;
  
 }
 
 #buttons {
-    height: 85;
+    height: 65;
     width: 80px;
 }
 
-<<<<<<< HEAD
-#buttons{
-    height: 600px;
-    width: 400px;
-    
+#login_button{
+    height: 90px;
 }
 .btn{
     height: 90px;
     width: 150px;
     margin: 10px;
     text-align: center;
+    font-weight: 700;
+    font-size: 30px;
 }
 #red{
-    color: yellow;
-    background-color: black;
+    color: green;
+    background-color: red;
 }
 #green{
-    color:yellow;
-    background-color: black;
+    color:green;
+    background-color: red;
 }
 #blue{
-  color:yellow;  
-  background-color: black;
+  color:green;  
+  background-color: red;
 }
 #black{
-    color:yellow;
-    background-color: black;
+    color:green;
+    background-color: red;
 }
 #pink{
-  color:yellow; 
-  background-color: black;
-=======
-#login_button{
-    height: 90px;
+  color:green; 
+  background-color: red;
 }
-
-.btn {
-    display: grid;
-    height: 90px;
-    width: 140px;
-    grid-gap: 40px;
-<<<<<<< HEAD
-    
-=======
-  height: 100px
->>>>>>> d35d84c8f366ea761e028b2a4441a19011387b46
->>>>>>> 00a158feca78708e0fa63842879a069b3420f800
-}
-=======
-
-}
-
 .main {
-    position: absolute;
-    right: 500px;
-    top: 120px;
+    position: fixed;
+    right: 100px;
+    top: 100px;
 }
->>>>>>> 51ec62150ff0f327a16f2f09514e108019daaaff
