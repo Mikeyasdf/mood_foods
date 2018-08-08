@@ -18,15 +18,17 @@ class AboutPage(webapp2.RequestHandler):
         about_template = the_jinja_env.get_template('templates/about.html')
         self.response.write(about_template.render())
         
-class Page_2(webapp2.RequestHandler):
+class Angry(webapp2.RequestHandler):
 
-    def post(self):
-        about_template = the_jinja_env.get_template('templates/page_2.html')
-        if True:
-            self.redirect("/page_2")
-        else:
+    def get(self):
+        about_template = the_jinja_env.get_template('templates/Angry.html')
+        self.response.write(about_template.render())
 
-            self.redirect("/") 
+class Happy(webapp2.RequestHandler):
+
+    def get(self):
+        about_template = the_jinja_env.get_template('templates/Happy.html')
+        self.response.write(about_template.render())
 
 '''
 class Page_2(webapp2.RequestHandler):
@@ -43,5 +45,6 @@ class Page_2(webapp2.RequestHandler):
 '''
 app = webapp2.WSGIApplication([
     ('/', AboutPage),
-    ('/page_2', Page_2),
+    ('/Angry', Angry),
+    ('/Happy', Happy)
 ], debug=True)
