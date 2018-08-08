@@ -24,16 +24,13 @@ body{
     display:flex;
     justify-content: center;
     text-align:center;
-=======
-  right: 630px ;
->>>>>>> 0c05bc94757d95d9ddfbf2f0f2cc2a39ad5e7051
+    right: 630px ;
 }
 
 #login_button{
     height: 90px;
 }
 
-<<<<<<< HEAD
 .btn {
     font-size: medium;
     display: grid;
@@ -57,21 +54,11 @@ body{
     grid-columns: 20px;
     margin-bottom: 190px;
 }
-=======
-
->>>>>>> 0c05bc94757d95d9ddfbf2f0f2cc2a39ad5e7051
-
 .sidebar {
     height: 530px;
 }
-<<<<<<< HEAD
-=======
-
-
 input[type=button] {
   border: none;
   height: 150px;
   width: 150px;
-
 }
->>>>>>> 0c05bc94757d95d9ddfbf2f0f2cc2a39ad5e7051
