@@ -24,17 +24,16 @@ class Angry(webapp2.RequestHandler):
         about_template = the_jinja_env.get_template('templates/Angry.html')
         self.response.write(about_template.render())
 
-<<<<<<< HEAD
 class Happy(webapp2.RequestHandler):
 
     def get(self):
         about_template = the_jinja_env.get_template('templates/Happy.html')
-=======
+        self.response.write(about_template.render())
+
 class Motivated(webapp2.RequestHandler):
 
     def get(self):
         about_template = the_jinja_env.get_template('templates/Motivated.html')
->>>>>>> 0434aae04e5da26149d14e1b0a86ff4cdf393ab3
         self.response.write(about_template.render())
 
 '''
@@ -53,9 +52,6 @@ class Page_2(webapp2.RequestHandler):
 app = webapp2.WSGIApplication([
     ('/', AboutPage),
     ('/Angry', Angry),
-<<<<<<< HEAD
-    ('/Happy', Happy)
-=======
+    ('/Happy', Happy),
     ('/Motivated', Motivated)
->>>>>>> 0434aae04e5da26149d14e1b0a86ff4cdf393ab3
 ], debug=True)
