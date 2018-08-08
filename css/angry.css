@@ -1,17 +1,12 @@
 .container{
-    background-image: url('https://storage.googleapis.com/zopnow-static/images/products/320/fresh-apple-red-delicious-v-500-g.png');
     background-color: #8BC34A;
     padding: 0 60px;
 }
 
-#logo {
+#logo_2 {
   height: 100px;
   position: absolute;
   right: 630px ;
-}
-
-#login_button{
-    height: 90px;
 }
 
 
