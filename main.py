@@ -63,7 +63,7 @@ app = webapp2.WSGIApplication([
     ('/', AboutPage),
     ('/Angry', Angry),
     ('/Motivated', Motivated),
-    ('/Sad', Sad)
-    ('/Romantic', Romantic)
-    ('/Happy', Happy),
+    ('/Sad', Sad),
+    ('/Romantic', Romantic),
+    ('/Happy', Happy)
 ], debug=True)
