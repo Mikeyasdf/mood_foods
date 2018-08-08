@@ -1,0 +1,16 @@
+.container{
+    background-color: #8BC34A;
+    padding: 0 60px;
+}
+
+.sidebar {
+    height: 530px;
+}
+
+
+input[type=button] {
+  border: none;
+  height: 150px;
+  width: 150px;
+
+}
