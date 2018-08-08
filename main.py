@@ -29,6 +29,12 @@ class Romantic(webapp2.RequestHandler):
         about_template = the_jinja_env.get_template('templates/Romantic.html')
         self.response.write(about_template.render())
 
+class Motivated(webapp2.RequestHandler):
+
+    def get(self):
+        about_template = the_jinja_env.get_template('templates/Motivated.html')
+        self.response.write(about_template.render())
+
 '''
 class Page_2(webapp2.RequestHandler):
     def get(self):
@@ -45,4 +51,5 @@ app = webapp2.WSGIApplication([
     ('/', AboutPage),
     ('/Angry', Angry),
     ('/Romantic', Romantic)
+    ('/Motivated', Motivated)
 ], debug=True)
