@@ -29,6 +29,7 @@ body{
     height: 90px;
 }
 
+<<<<<<< HEAD
 .btn {
     font-size: medium;
     display: grid;
@@ -55,6 +56,12 @@ body{
 .sidebar {
     height: 530px;
 }
+=======
+.sidebar {
+    height: 530px;
+}
+
+>>>>>>> 10450237e22e355726319bc3655369e32a52800e
 input[type=button] {
   border: none;
   height: 150px;
